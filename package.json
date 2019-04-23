@@ -1,0 +1,27 @@
+{
+  "name": "jdp-github",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@ao-internal/css-framework": "^8.3.4-alpha",
+    "node-sass": "^4.11.0",
+    "node-sass-tilde-importer": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "node-sass --source-map true --include-path node_modules --importer=node_modules/node-sass-tilde-importer src/styles/style.scss -o src/styles",
+    "dev:watch": "npm run dev && node-sass --source-map true --include-path node_modules --importer=node_modules/node-sass-tilde-importer src/styles/style.scss -o src/styles --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelburke44/JDP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuelburke44/JDP/issues"
+  },
+  "homepage": "https://github.com/samuelburke44/JDP#readme"
+}
