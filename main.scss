@@ -149,20 +149,18 @@ body {
 
 		h1 {
 			font-size: 2.75rem;
-
-			.blog-content {
-				max-width: 768px;
-				margin-right: auto;
-				margin-left: auto;
-
-				.inner {
-					padding: 66px;
-				}
-			}
-
 			span {
 				font-size: 2rem;
 			}
+		}
+	}
+	.blog-content {
+		max-width: 768px;
+		margin-right: auto;
+		margin-left: auto;
+
+		.inner {
+			padding: 66px;
 		}
 	}
 }
