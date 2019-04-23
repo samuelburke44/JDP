@@ -1,0 +1,25 @@
+{
+	"name": "jdp-github",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"dependencies": {},
+	"devDependencies": {
+		"stylelint": "^10.0.1",
+		"stylelint-order": "^2.2.1",
+		"stylelint-preset-ao": "^1.0.3"
+	},
+	"scripts": {
+		"lint": "stylelint \"./main.css\" --fix"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/samuelburke44/JDP.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/samuelburke44/JDP/issues"
+	},
+	"homepage": "https://github.com/samuelburke44/JDP#readme"
+}
