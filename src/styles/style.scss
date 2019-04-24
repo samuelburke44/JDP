@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import '~@ao-internal/css-framework/src/framework/main';
 
 @font-face {
-	font-family: 'oz-bold';
+	font-family: 'ozBold';
 	src: url('/fonts/AoOz-Bold.woff') format('woff');
 }
 
@@ -17,19 +18,14 @@
 
 body {
 	box-sizing: border-box;
-	margin: 0;
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: #efefef;
 }
 
 .blog-header {
-	display: flex;
-	justify-content: center;
 	align-items: center;
 	height: 400px;
 	margin-bottom: -50px;
-	color: white;
-	text-align: center;
 	background-image: url('//media.ao.com/uk/contentHub/blog/img/kathy-slack/header_aeg.jpg');
 	background-position: 50%;
 	background-size: cover;
@@ -39,9 +35,8 @@ body {
 	max-width: 230px;
 
 	h1 {
-		margin-bottom: 16px;
 		line-height: 1.2;
-		font-family: oz-bold, Arial, Helvetica, sans-serif;
+		font-family: ozBold, Arial, Helvetica, sans-serif;
 		font-size: 2.25rem;
 
 		span {
@@ -54,7 +49,6 @@ body {
 .blog-content {
 	padding: 0 10px;
 	line-height: 1.4;
-	background-color: #efefef;
 
 	p {
 		font-size: 0.8125rem;
@@ -78,6 +72,8 @@ body {
 	}
 
 	figure {
+		min-width: 200px;
+
 		img {
 			width: 200px;
 			height: auto;
@@ -86,7 +82,6 @@ body {
 	}
 
 	a {
-		color: #7fba23;
 		text-decoration: underline;
 	}
 }
@@ -119,7 +114,7 @@ body {
 	}
 
 	p {
-		font-family: oz-bold;
+		font-family: ozBold;
 		font-weight: 700;
 		font-size: 1.125rem;
 	}
