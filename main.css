@@ -82,6 +82,11 @@ body {
 	text-align: center;
 }
 
+.article-header figure {
+	margin: 0 auto 16px;
+	min-width: 200px;
+}
+
 .article-header figure img {
 	width: 200px;
 	height: auto;
