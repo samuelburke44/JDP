@@ -72,8 +72,6 @@ body {
 	}
 
 	figure {
-		min-width: 200px;
-
 		img {
 			width: 200px;
 			height: auto;
@@ -86,10 +84,6 @@ body {
 	}
 }
 
-.inner {
-	padding: 25px;
-}
-
 .article-quote {
 	margin: 0;
 
@@ -97,14 +91,13 @@ body {
 	&::before {
 		display: block;
 		font-family: ao-icons;
-		font-size: 24px;
 		font-size: 1.5rem;
 		color: #7fba23;
 	}
 
 	&::before {
 		content: '\e63e';
-		margin-bottom: 8px;
+		margin-bottom: getSpace(tiny);
 		text-align: left;
 	}
 

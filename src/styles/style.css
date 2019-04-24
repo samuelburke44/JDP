@@ -7036,24 +7036,18 @@ body {
   text-align: center; }
   .article-header p.article-header-content {
     font-size: 0.875rem; }
-  .article-header figure {
-    min-width: 200px; }
-    .article-header figure img {
-      width: 200px;
-      height: auto;
-      border-radius: 50%; }
+  .article-header figure img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%; }
   .article-header a {
     text-decoration: underline; }
-
-.inner {
-  padding: 25px; }
 
 .article-quote {
   margin: 0; }
   .article-quote::after, .article-quote::before {
     display: block;
     font-family: ao-icons;
-    font-size: 24px;
     font-size: 1.5rem;
     color: #7fba23; }
   .article-quote::before {
